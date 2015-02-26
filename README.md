@@ -1,6 +1,8 @@
 # Keyring
 ###User credentials storage application created with Laravel 4.2
 
+![Keyring main page](http://www.101011.co.uk/images/keyring-550.gif)
+
 **What is Keyring?**
 
 Keyring is a host / username / password storage application where users can securely store and edit their online account credentials and access them from any web browser.
