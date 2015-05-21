@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://keyring.zoostorm.home',
+	'url' => 'http://keyring.localhost',
 
 	/*
 	|--------------------------------------------------------------------------

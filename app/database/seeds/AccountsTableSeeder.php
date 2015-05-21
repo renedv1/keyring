@@ -12,7 +12,7 @@ class AccountsTableSeeder extends Seeder {
                 'last_name' => 'Bar',
                 'email' => 'foo@bar.com',
                 'password' => Hash::make('passwd01'),
-                'master_password' => Helpers::encryptString(array('string'=>'master01', 'master_password'=>'master01')),
+                'master_key' => Helpers::encryptString(array('string'=>'master01', 'master_key'=>'master01')),
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime
             ),
@@ -22,7 +22,7 @@ class AccountsTableSeeder extends Seeder {
                 'last_name' => 'Public',
                 'email' => 'joe@public.com',
                 'password' => Hash::make('passwd02'),
-                'master_password' => Helpers::encryptString(array('string'=>'master02', 'master_password'=>'master02')),
+                'master_key' => Helpers::encryptString(array('string'=>'master02', 'master_key'=>'master02')),
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime
             )
