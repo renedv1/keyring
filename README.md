@@ -26,11 +26,12 @@ Keyring would be an excellent workgroup solution when installed on a secure (htt
 * Create a (MySQL recommended) database and user for the application
 * Edit the database config file (app/config/database.php) to match the above
 * Edit the application config file (app/config/app.php) and set your web host's url
-* Edit the mail config file (app/config/mail.php) to point to your preferred mail service  
+* Edit the mail config file (app/config/mail.php) to point to your preferred mail service
+* Add the empty directory app/commands  
 * Run the database migration and seed files (bash_shell:$ php artisan migrate && php artisan db:seed)
 * Enable your web server to serve the application (usually involves creating and enabling a new vhost) 
 * Reload your web server's config e.g. Apache (bash_shell:$ sudo service apache2 reload)
-* Log in to the application as 'foo@bar.org / passwd01' and use the Master Key 'master01'
+* Log in to the application as 'foo@bar.com / passwd01' and use the Master Key 'master01'
 * If all looks ok, go ahead and create your own user accounts
 
 **Licence / guarantee etc**
